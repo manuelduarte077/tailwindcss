@@ -614,6 +614,17 @@ video {
   }
 }
 
+.encabezado {
+  font-size: 1.875rem;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
